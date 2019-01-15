@@ -6,7 +6,7 @@ function sayMe () {
   console.log(content)
   var content
 }
-sayMe() // Undefined This results to undefined because the var is hoisted to the top of the function and exist but noe defined.
+sayMe() // Undefined This results to undefined because the var is hoisted to the top of the function and exist but not defined.
 
 // Below are the differences between the three keywords used in declaring variables in Javascript.
 
@@ -60,7 +60,7 @@ for (let i = 1; i < 10; i++) {
   }, 2000)
 };
 
-/* Just like LET keyword, the CONST keyword used for declaring variables acts just the same as LET as it is also blocked-scoped except for the fact that it can not be reassigned when used to declare an initial variable. See example below */
+/* Just like LET keyword, the CONST keyword used for declaring variables acts just the same as LET in the lexical environment term as it is also blocked-scoped except for the fact that it can not be reassigned when used to declare an initial variable. See example below */
 
 const myName = 'Richard'
 myName = 'John'
